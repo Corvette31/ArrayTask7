@@ -8,9 +8,9 @@ namespace ArrayTask7
         {
             Console.Write("Введите предложение: ");
 
-            foreach (var item in Console.ReadLine().Split())
+            foreach (var word in Console.ReadLine().Split())
             {
-                Console.WriteLine(item);
+                Console.WriteLine(word);
             }
         }
     }
